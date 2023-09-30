@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Exo2 ExtraLight';
+    src: url(fonts/Exo2-ExtraLight.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Exo2 Semibold';
+    src: url(fonts/Exo2-SemiBold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Exo2 Thin Italic';
+    src: url(fonts/Exo2-ThinItalic.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Exo2 Extra Bold Italic';
+    src: url(fonts/Exo2-ExtraBoldItalic.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Exo2 Medium Italic';
+    src: url(fonts/Exo2-MediumItalic.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Exo2 Bold';
+    src: url(fonts/Exo2-Bold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.conten-navbar{
+    position: fixed;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(3px);
+}
+.logito{
+    width: 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.navitem{
+    text-decoration: none;
+    font-family: 'Exo2 Semibold';
+    font-size: 25px;
+    padding-top: 9px;
+    color: #fff;
+}
+.trial{
+    transition:color 0.7s;
+    padding-right: 15px;
+}
+.titulo2{
+    padding-left: 100px;
+}
+.trial:hover{
+    color: #000;
+}
+.cont-banner{
+    background-image: url(images/fondoheader.jpg);
+    background-position:cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 550px;
+}
+.header{
+    padding-top: 100px;
+    text-align: center;
+}
+.titulo{
+    color: #fff;
+    font-family: 'Exo2 ExtraLight';
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.subtitulo{
+    font-family: 'Exo2 Thin Italic';
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+.titulobajo{
+    font-family: 'Exo2 Thin Italic';
+    color: #fff;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.cont-banner2{
+    background-image: url(images/fondito2.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 900px;
+}
+.cajitatexto{
+    width: 95%;
+    align-items: center;
+    text-align: left;
+    padding-left: 30px;
+}
+.planes{
+    background-image: url(images/fondoplanes.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 900px;
+}
+.contelegir{
+    text-align: center;
+}
+.elegir{
+    font-family: 'Exo2 Extra Bold Italic';
+    font-size: 70px;
+    margin: 0;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.pricing-card{
+    background-color:#fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+}
+.titulo-plan{
+    font-family: 'Exo2 Medium Italic';
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.precio{
+    font-family: 'Exo2 Semibold';
+    font-size: 30px;
+    margin-top: 0;
+}
+.item{
+    font-family: 'Exo2 ExtraLight';
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+li{
+    background-image: url(public/comprobado.png);
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    list-style: none;
+}
+.btn{
+    text-decoration: none;
+    font-family: 'Exo2 Bold';
+    color: #000;
+    font-size: 25px;
+    border-radius: 8px;
+    transition: background-color 0.7s, color 0.7s;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.cont-sub{
+    text-align: center;
+}
+.ji{
+    padding-bottom: 0;
+}
