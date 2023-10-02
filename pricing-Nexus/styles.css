@@ -121,7 +121,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    height: 900px;
+    height: 1000px;
 }
 .contelegir{
     text-align: center;
@@ -190,4 +190,9 @@ li{
 }
 .ji{
     padding-bottom: 0;
+}
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
