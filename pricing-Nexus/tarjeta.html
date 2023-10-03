@@ -12,7 +12,33 @@
         <a href="index.html" class="volver">Volver atrás</a>
     </div>
     <div class="cont-titulo">
-        <h1 class="titulo">Únete hoy mismo al futuro. Empieza a crear ya!</h1>
+        <h1>Únete hoy mismo al futuro. Empieza a crear ya!</h1>
     </div>
+    <div class="caja-datos">
+        <h1>Datos de tu tarjeta</h1>
+        <form>
+            <label for="numerotarjeta">Número de tarjeta <br></label>
+            <input type="text" class="campo1" name="numerotarjeta" maxlength="16" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+            <label for="fecha"> <br>Fecha de expiración <br></label>
+            <input type="month" class= "campo2" id="fecha" name="fecha" required>
+            <label for="CVV"><br>Código de Seguridad <br></label>
+            <input type="text" id="CVV" name="CVV" maxlength="4" placeholder="****" class="CVV" required>
+            <label for="nombre"><br> Ingrese el nombre del titular <br></label>
+            <input type="text" id="nombre" name="nombre" placeholder="NOMBRE DEL TITULAR" required>
+            <label for="tipo"> <br> <br>Tipo de tarjeta: <br></label>
+            <select id="tipo" required>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard Crédito">Mastercard Crédito</option>
+                <option value="Mastercard Débito">Mastercard Débito</option>
+            </select>
+        </form>
+    </div>
+    <div class="cajadatos2">
+        <h1>Recuerde que se está comprometiendo a un pago <br> mensual. Puede cancelarlo en cualquier <br> momento.
+            gracias por confiar en nosotros!
+        </h1>
+        <button>Confirmar pago</button>
+    </div>
+    <p class="footer">&copy; 2023 Nexus Engine (®). Todos los derechos reservados.</p>
 </body>
 </html>

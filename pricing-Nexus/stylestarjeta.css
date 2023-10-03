@@ -16,6 +16,24 @@ body{
     font-size: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: 'Exo2 Semibold';
+    src: url(fonts/Exo2-SemiBold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Exo2 Bold';
+    src: url(fonts/Exo2-Bold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Exo2 Regular 400';
+    src: url(fonts/Exo2-Regular.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
 .atras{
     display: flex;
     justify-content: left;
@@ -37,11 +55,86 @@ body{
 .cont-titulo{
     text-align: center;
 }
-.titulo{
+.cont-titulo h1{
     font-family: 'Exo2 ExtraLight';
     color: #fff;
     font-size: 50px;
     margin: 0;
-    padding-bottom: 10px;
-    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+.caja-datos{
+    background-image: url(images/fondopago2.jpg);
+    background-position: cover;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0,0,0.1);
+    position: relative;
+    margin-left: 200px;
+    width: 40%;
+    z-index: 2;
+}
+.caja-datos h1{
+    font-family: 'Exo2 SemiBold';
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.caja-datos label{
+    font-family: 'Exo2 Regular 400';
+    font-size: 23px;
+    margin-bottom: 5px;
+    color:#fff;
+}
+.caja-datos input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.caja-datos input:focus{
+    border-bottom: 2px solid #fff;
+}
+.caja-datos input::placeholder{
+    color: #fff;
+}
+.CVV{
+    width: 5%;
+}
+.cajadatos2{
+    background-color: rgb(1, 2, 4);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0,0,0.1);
+    position: relative;
+    width: 60%;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    height: 200px;
+    text-align: right;
+    align-items: right;
+    z-index: 1;
+    transform: translate(-50px,-140px);
+}
+.cajadatos2 h1{
+    font-family: 'Exo2 Semibold';
+    font-size: 30px;
+    color: #fff;
+    text-align: right;
+}
+.cajadatos2 button{
+    background-image: url(images/fondoboton.jpg);
+    background-position: cover;
+    background-attachment: fixed;
+    font-family: 'Exo2 Semibold';
+    font-size: 23px;
+    margin-right: 90px;
+}
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }

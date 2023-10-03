@@ -140,6 +140,7 @@ body{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
+    position: relative;
 }
 .contenedor{
     display: grid;
@@ -166,7 +167,7 @@ li{
     background-image: url(public/comprobado.png);
     background-size: 17px 17px;
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding-left: 20px;
     list-style: none;
 }
 .btn{
@@ -176,10 +177,12 @@ li{
     font-size: 25px;
     border-radius: 8px;
     transition: background-color 0.7s, color 0.7s;
-    padding-left: 50px;
-    padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .btn:hover{
     background-color: #000;
@@ -188,11 +191,11 @@ li{
 .cont-sub{
     text-align: center;
 }
-.ji{
-    padding-bottom: 0;
-}
 .footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+.cont-sub h2{
+    padding-bottom: 0;
 }
