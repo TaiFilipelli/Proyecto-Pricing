@@ -200,3 +200,59 @@ li{
 .cont-sub h2{
     padding-bottom: 0;
 }
+@media(max-width:1470px){
+    .cont-banner2{
+        background-attachment: none;
+        background-size: auto;
+        background-position: center;
+    }
+}
+@media(max-width:905px){
+    .titulo{
+        font-size: 60px;
+        padding: 0px;
+    }
+    .subtitulo{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 30px;    
+    }
+    .titulobajo{
+        margin: 0;
+    }
+    .trial{
+        padding-left: 10px;
+    }
+    .cont-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .pricing-card{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+}
+@media(max-width:740px){
+    .elegir{
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:1140px){
+    .planes{
+        background-image: none;
+        background-color: #000;
+        height: 1000px;
+    }
+}
+@media(max-width:1005px){
+    .planes{
+        height: 1900px;
+    }
+}
