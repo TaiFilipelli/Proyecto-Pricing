@@ -180,20 +180,21 @@ body{
 @media(max-width:501px){
     .caja-datos{
         width: 90%;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .CVV{
         width: 15%;
     }
     .cajadatos2{
         width: 90%;
-        margin-left: 10px;
+        margin-left: 5px;
         transform: translate(0px,0px);
         margin-top: 30px;
         margin-bottom: 0;
         height: 200px;
         text-align: center;
         align-items: center;
+        padding: 20px;
     }
     .cajadatos2 h1{
         margin-top: 0;
@@ -201,10 +202,10 @@ body{
 }
 @media(max-width:340px){
     .caja-datos{
-        margin-left: 5px;
+        margin-left: 0;
     }
     .cajadatos2{
-        margin-left: 5px;
+        margin-left: 0;
         height: 240px;
     }
 }
