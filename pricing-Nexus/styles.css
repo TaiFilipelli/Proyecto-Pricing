@@ -200,6 +200,22 @@ li{
 .cont-sub h2{
     padding-bottom: 0;
 }
+.elpopular{
+    transform: translate(0px,-32px);
+}
+.elpopular span{
+    font-family: 'Exo2 SemiBold';
+    font-size: 25px;
+    margin-bottom: 20px;
+    background-color: #f6ff00;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.recomendado{
+    border: 4px solid #f6ff00;
+}
 @media(max-width:1140px){
     .planes{
         background-image: none;
