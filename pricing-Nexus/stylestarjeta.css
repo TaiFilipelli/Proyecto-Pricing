@@ -75,7 +75,7 @@ body{
     border-radius: 8px;
     box-shadow: 0 4px 6px rgb(0,0,0.1);
     position: relative;
-    margin-left: 200px;
+    margin-left: 100px;
     width: 40%;
     z-index: 2;
 }
@@ -117,7 +117,7 @@ body{
     box-shadow: 0 4px 6px rgb(0,0,0.1);
     position: relative;
     width: 60%;
-    margin-left: 600px;
+    margin-left: 500px;
     margin-bottom: 50px;
     height: 200px;
     text-align: right;
