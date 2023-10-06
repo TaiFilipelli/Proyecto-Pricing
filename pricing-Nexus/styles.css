@@ -200,6 +200,19 @@ li{
 .cont-sub h2{
     padding-bottom: 0;
 }
+@media(max-width:1140px){
+    .planes{
+        background-image: none;
+        background-color: #000;
+        height: 1000px;
+    }
+}
+@media(max-width:1005px){
+    .planes{
+        height: 1900px;
+    }
+}
+
 @media(max-width:1470px){
     .cont-banner2{
         background-attachment: none;
@@ -238,21 +251,69 @@ li{
         width: 80%;
     }
 }
-@media(max-width:740px){
+@media(max-width:790px){
     .elegir{
         padding: 0;
         padding-bottom: 20px;
     }
-}
-@media(max-width:1140px){
-    .planes{
-        background-image: none;
-        background-color: #000;
-        height: 1000px;
+    .cont-banner{
+        background-size: cover;
     }
 }
-@media(max-width:1005px){
+@media(max-width:620px){
+    .titulobajo{
+        font-size: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .planes{
-        height: 1900px;
+        height: 2300px;
+    }
+    .subtitulo{
+        margin: 0;
+    }
+}
+@media(max-width:500px){
+    .titulo{
+        font-size: 45px;
+        padding-bottom: 5px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .titulobajo{
+        font-size: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo2{
+        padding-left: 9px;
+    }
+    .trial{
+        padding-top: 10px;
+    }
+    .header{
+        margin-top: 50px;
+    }
+    .cajitatexto{
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    .cont-banner2{
+        background-position:-1300px;
+    }
+}
+@media(max-width:360px){
+    .titulo{
+        font-size: 35px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .titulobajo{
+        font-size: 20px;
+        padding: 0;
     }
 }

@@ -108,7 +108,7 @@ body{
     color: #fff;
 }
 .CVV{
-    width: 5%;
+    width: 10%;
 }
 .cajadatos2{
     background-color: rgb(1, 2, 4);
@@ -117,7 +117,7 @@ body{
     box-shadow: 0 4px 6px rgb(0,0,0.1);
     position: relative;
     width: 60%;
-    margin-left: 600px;
+    margin-left: 650px;
     margin-bottom: 50px;
     height: 200px;
     text-align: right;
@@ -150,4 +150,61 @@ body{
     color: transparent;
     text-align: center;
     padding: 10px 0;
+}
+@media(max-width:1500px){
+    .cajadatos2 h1{
+        font-size: 25px;
+    }
+}
+@media(max-width:950px){
+    .cajadatos2{
+        margin-left: 325px;
+        transform: translate(-80px,30px);
+    }
+    .caja-datos{
+        margin-left: 100px;
+    }
+}
+@media(max-width:785px){
+    .cajadatos2 button{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .cajadatos2 h1{
+        font-size: 23px;
+    }
+}
+@media(max-width:501px){
+    .caja-datos{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .CVV{
+        width: 15%;
+    }
+    .cajadatos2{
+        width: 90%;
+        margin-left: 10px;
+        transform: translate(0px,0px);
+        margin-top: 30px;
+        margin-bottom: 0;
+        height: 200px;
+        text-align: center;
+        align-items: center;
+    }
+    .cajadatos2 h1{
+        margin-top: 0;
+    }
+}
+@media(max-width:340px){
+    .caja-datos{
+        margin-left: 5px;
+    }
+    .cajadatos2{
+        margin-left: 5px;
+        height: 240px;
+    }
 }
