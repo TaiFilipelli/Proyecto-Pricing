@@ -127,7 +127,7 @@ body{
 }
 .cajadatos2 h1{
     font-family: 'Exo2 Semibold';
-    font-size: 30px;
+    font-size: 25px;
     padding: 0;
     color: #fff;
     text-align: right;
@@ -153,7 +153,7 @@ body{
 }
 @media(max-width:1500px){
     .cajadatos2 h1{
-        font-size: 25px;
+        font-size: 22px;
     }
 }
 @media(max-width:950px){
