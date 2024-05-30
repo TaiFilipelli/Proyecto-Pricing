@@ -146,6 +146,9 @@ body{
 .cajadatos2 button:hover{
     transform: scale(1.05) ;
 }
+button.conf-pago{
+    cursor: pointer;
+}
 .footer {
     color: transparent;
     text-align: center;
